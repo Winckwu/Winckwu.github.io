@@ -2514,7 +2514,7 @@
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 		padding-left: 1em;
 	}
 
@@ -3323,9 +3323,9 @@
 	}
 
 	body.landing #header {
-		background: transparent;
+		background-color:rgba(0, 0, 0, 0.5);
 		box-shadow: none;
-		position: absolute;
+		/*position: absolute;*/
 	}
 
 /* Banner */
@@ -3396,10 +3396,10 @@
 			#banner .content .image {
 				border-radius: 100%;
 				display: inline-block;
-				height: 12.5em;
-				margin-left: 3em;
+				height: 13em;
+				margin-left: 2em;
 				vertical-align: middle;
-				width: 12.5em;
+				width: 13em;
 			}
 
 				#banner .content .image img {
@@ -3501,7 +3501,7 @@
 
 	#footer {
 		background: #272833;
-		padding: 3em 0;
+		padding: 1.5em 0;
 		text-align: center;
 	}
 
@@ -3527,7 +3527,7 @@
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.8em;
 			line-height: 1em;
-			margin: 2em 0 0 0;
+			margin: 1em 0 0 0;
 			padding: 0;
 			text-align: center;
 		}
